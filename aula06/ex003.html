@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa</title>
+    <style>
+        body {
+            background-color: rgb(124, 212, 212);
+            color: white;
+            font:normal 20pt Arial; 
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá mundo!</h1>
+    <p>Já me livrei da maldição </p>
+<script>
+   /*var n1 = window.prompt('digite um numero: ')
+   var n2 = window.prompt('Digite outro numero: ')
+   var s = n1 + n2 //js fica confuso se esse sinal é soma ou concatenacao
+   window.alert('A soma dos valores é ' + s)
+   // (number + number) para adição
+   // (string + string) para concatenação
+   // precisamos converter o tipo de string para numero
+
+   // Number.parseInt(n) = converte para numero inteiro
+   // Number.parseFloat(n) = converte para numero real
+   
+   FICARÁ ASSIM APÓS A CONVERSÃO:*/
+
+   var n1 = Number.parseInt(window.prompt('digite um numero: '))
+   var n2 = Number.parseInt(window.prompt('Digite outro numero: '))
+   var s = n1 + n2 //js fica confuso se esse sinal é soma ou concatenacao
+   window.alert('A soma dos valores é ' + s)
+
+   /* continuar aqui o TREINO*/
+    var n3 = Number.parseInt(window.prompt('digite um numero: ')) //na versao mais recente pode utilizar somente Number*/
+    var n4 = Number.parseInt(window.prompt('digite outro numero: '))
+    var r = n3 - n4
+    window.alert('o resultado da subtração é: ' + String(r) )//converter para string
+    /* fim do treino */
+
+    /*FORMATANDO STRING. EXEMPLO FEITO NO NODE JS.:
+
+> nome = 'Gustavo'
+'Gustavo'
+> idade = 41
+41
+> nota = 5.5
+5.5
+> nome
+'Gustavo'
+> idade
+41
+> nota
+5.5
+> 'O aluno ' + nome + ' com ' + idade + ' anos tirou a nota ' + nota
+'O aluno Gustavo com 41 anos tirou a nota 5.5'
+
+> `O aluno ${nome} com ${idade} anos tirou a nota ${nota}`(TEMPLATE STRING)
+'O aluno Gustavo com 41 anos tirou a nota 5.5' -->FORMA RECENTE MAIS PRATICA DE SE FAZER
+ */
+
+</script>
+
+
+</body>
+</html>
